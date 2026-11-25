@@ -1,10 +1,8 @@
 from django.urls import path
-from . import views
+from .views import views_planos
 
-
-
-# Urls de planos
+app_name = 'chamados'
 
 urlpatterns = [
-    path('planos/', views.ver_planos, name='planos'),
+    path('planos/', views_planos.ver_planos, name='planos'),
 ]
