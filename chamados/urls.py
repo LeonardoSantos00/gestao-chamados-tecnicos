@@ -18,7 +18,7 @@ urlpatterns = [
 
     # Módulo 1: Planos
     path('planos/', views_planos.ver_planos, name='planos'),
-    # path('planos/', views_planos.plano_list, name='plano_list'),
+    # path('planos/', views_planos.plano_list, name='plano_list'), 
 
     # Módulo 2: Clientes
     # path('clientes/', views_clientes.cliente_list, name='cliente_list'),
